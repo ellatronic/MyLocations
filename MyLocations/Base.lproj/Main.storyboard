@@ -62,6 +62,20 @@
                                     <action selector="getLocation" destination="9pv-A4-QxB" eventType="touchUpInside" id="wFG-NL-NDH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Latitude:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Is-dD-e5A">
+                                <rect key="frame" x="16" y="79" width="68" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Longitude:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNJ-Lg-HIO">
+                                <rect key="frame" x="16" y="108" width="82" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -71,7 +85,7 @@
                         <outlet property="getButton" destination="7ff-Kx-S9e" id="RfW-Bl-riy"/>
                         <outlet property="latitudeLabel" destination="jUH-9n-pk3" id="zWq-Uu-r7y"/>
                         <outlet property="longitudeLabel" destination="tYh-fg-2a5" id="G1O-Fe-1KZ"/>
-                        <outlet property="messageLabel" destination="9eL-W5-EcH" id="RGk-cQ-prl"/>
+                        <outlet property="messageLabel" destination="9eL-W5-EcH" id="1JS-Px-T8C"/>
                         <outlet property="tagButton" destination="iKS-Ip-ZRX" id="5DI-z5-wno"/>
                     </connections>
                 </viewController>
