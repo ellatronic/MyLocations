@@ -78,7 +78,6 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
 
     // MARK: - CLLocationManagerDelegate
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        print("didFailWithError \(error)")
         
         if (error as NSError).code == CLError.locationUnknown.rawValue {
             return
@@ -93,7 +92,6 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let newLocation = locations.last!
-        print("didUpdateLocations \(newLocation)")
         
         if newLocation.timestamp.timeIntervalSinceNow < -5 {
             return
@@ -113,7 +111,6 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
             updateLabels()
             
             if newLocation.horizontalAccuracy <= locationManager.desiredAccuracy {
-                print("*** We're done!")
                 stopLocationManager()
                 configureGetButton()
                 
@@ -123,7 +120,6 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
             }
             
             if !performingReverseGeocoding {
-                print("*** Going to geocode")
                 
                 performingReverseGeocoding = true
                 
@@ -143,7 +139,6 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
             let timeInterval = newLocation.timestamp.timeIntervalSince(location!.timestamp)
             
             if timeInterval > 10 {
-                print("*** Force done!")
                 stopLocationManager()
                 updateLabels()
                 configureGetButton()
@@ -225,7 +220,6 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     }
     
     func didTimeOut() {
-        print("*** Time out")
         
         if location == nil {
             stopLocationManager()
