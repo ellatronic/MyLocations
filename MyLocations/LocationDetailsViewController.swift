@@ -10,4 +10,5 @@ import UIKit
 
 class LocationDetailsViewController: UITableViewController {
     @IBOutlet weak var descriptionTextView: UITableView!
+    @IBOutlet weak var categoryLabel: UILabel!
 }
