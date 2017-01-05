@@ -12,4 +12,5 @@ class LocationDetailsViewController: UITableViewController {
     @IBOutlet weak var descriptionTextView: UITableView!
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var latitudeLabel: UILabel!
+    @IBOutlet weak var longitudeLabel: UILabel!
 }
