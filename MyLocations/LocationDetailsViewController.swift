@@ -13,4 +13,5 @@ class LocationDetailsViewController: UITableViewController {
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var latitudeLabel: UILabel!
     @IBOutlet weak var longitudeLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
 }
