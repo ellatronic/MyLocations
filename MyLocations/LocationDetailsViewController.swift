@@ -15,4 +15,8 @@ class LocationDetailsViewController: UITableViewController {
     @IBOutlet weak var longitudeLabel: UILabel!
     @IBOutlet weak var addressLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
+    
+    @IBAction func done() {
+        dismiss(animated: true, completion: nil)
+    }
 }
