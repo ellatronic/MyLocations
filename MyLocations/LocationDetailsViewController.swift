@@ -19,4 +19,8 @@ class LocationDetailsViewController: UITableViewController {
     @IBAction func done() {
         dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func cancel() {
+        dismiss(animated: true, completion: nil)
+    }
 }
