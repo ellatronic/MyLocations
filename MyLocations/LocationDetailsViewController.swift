@@ -23,4 +23,6 @@ class LocationDetailsViewController: UITableViewController {
     @IBAction func cancel() {
         dismiss(animated: true, completion: nil)
     }
+    
+    var coordinate = CLLocationCoordinate2D(latitude: 0, longitude: 0)
 }
