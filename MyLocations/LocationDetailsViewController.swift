@@ -25,4 +25,5 @@ class LocationDetailsViewController: UITableViewController {
     }
     
     var coordinate = CLLocationCoordinate2D(latitude: 0, longitude: 0)
+    var placemark: CLPlacemark?
 }
