@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreLocation
 
 class LocationDetailsViewController: UITableViewController {
     @IBOutlet weak var descriptionTextView: UITableView!
