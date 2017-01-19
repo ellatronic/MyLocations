@@ -69,7 +69,9 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        <#code#>
+        if segue.identifier == "TagLocation" {
+            
+        }
     }
     
     func showLocationServicesDeniedAlert() {
