@@ -71,6 +71,7 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "TagLocation" {
             let navigationController = segue.destination as! UINavigationController
+            let controller = navigationController.topViewController as! LocationDetailsViewController
         }
     }
     
