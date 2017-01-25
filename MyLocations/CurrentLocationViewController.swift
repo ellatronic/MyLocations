@@ -72,6 +72,8 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
         if segue.identifier == "TagLocation" {
             let navigationController = segue.destination as! UINavigationController
             let controller = navigationController.topViewController as! LocationDetailsViewController
+            
+            controller.coordinate = location!.coordinate
         }
     }
     
