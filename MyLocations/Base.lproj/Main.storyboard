@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -139,7 +139,18 @@
                             <outlet property="delegate" destination="BiM-wB-pfE" id="FeE-KD-qOw"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Tag Location" id="QaI-GO-2YJ"/>
+                    <navigationItem key="navigationItem" title="Tag Location" id="QaI-GO-2YJ">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="jhC-Zd-vMN">
+                            <connections>
+                                <action selector="cancel" destination="BiM-wB-pfE" id="Fvb-x1-JSa"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="Mfk-Oc-5nA">
+                            <connections>
+                                <action selector="done" destination="BiM-wB-pfE" id="ZMd-iC-BFD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wvF-IF-WH3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
