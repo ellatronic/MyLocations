@@ -81,6 +81,10 @@ class LocationDetailsViewController: UITableViewController {
         }
     }
     
+    override func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
+        <#code#>
+    }
+    
     //MARK: Helper Functions
     func string(from placemark: CLPlacemark) -> String {
         var text = ""
