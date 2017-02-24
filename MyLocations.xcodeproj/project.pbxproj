@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491529B81E60077A0017DF5A /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491529B71E60077A0017DF5A /* HudView.swift */; };
 		491BDF7D1E4A6877001E8FC8 /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BDF7C1E4A6877001E8FC8 /* CategoryPickerViewController.swift */; };
 		492057081DF8958600C763C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492057071DF8958600C763C3 /* AppDelegate.swift */; };
 		4920570A1DF8958600C763C3 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492057091DF8958600C763C3 /* CurrentLocationViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		491529B71E60077A0017DF5A /* HudView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
 		491BDF7C1E4A6877001E8FC8 /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
 		492057041DF8958600C763C3 /* MyLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		492057071DF8958600C763C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				491BDF7C1E4A6877001E8FC8 /* CategoryPickerViewController.swift */,
 				4920570B1DF8958600C763C3 /* SecondViewController.swift */,
 				4920570D1DF8958600C763C3 /* Main.storyboard */,
+				491529B71E60077A0017DF5A /* HudView.swift */,
 				492057101DF8958600C763C3 /* Assets.xcassets */,
 				492057121DF8958600C763C3 /* LaunchScreen.storyboard */,
 				492057151DF8958600C763C3 /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				49D372631E13292E00633331 /* LocationDetailsViewController.swift in Sources */,
 				4920570C1DF8958600C763C3 /* SecondViewController.swift in Sources */,
+				491529B81E60077A0017DF5A /* HudView.swift in Sources */,
 				492057081DF8958600C763C3 /* AppDelegate.swift in Sources */,
 				491BDF7D1E4A6877001E8FC8 /* CategoryPickerViewController.swift in Sources */,
 				4920570A1DF8958600C763C3 /* CurrentLocationViewController.swift in Sources */,
