@@ -25,7 +25,9 @@ class LocationDetailsViewController: UITableViewController {
     @IBOutlet weak var dateLabel: UILabel!
     
     @IBAction func done() {
-        dismiss(animated: true, completion: nil)
+        let hudview = HudView.hud(inView: navigationController!.view, animated: true)
+
+        hudview.text = "Tagged"
     }
     
     @IBAction func cancel() {
