@@ -45,6 +45,9 @@ class HudView: UIView {
         let attribs = [NSFontAttributeName: UIFont.systemFont(ofSize: 16),
                        NSForegroundColorAttributeName: UIColor.white]
         let textSize = text.size(attributes: attribs)
-        let textPoint = CGPoint()
+        let textPoint = CGPoint(
+            x: center.x - round(textSize.width / 2),
+            y: center.y - round(textSize.height / 2) + boxHeight / 4)
+        text.draw(at: textPoint, withAttributes: attribs)
     }
 }
