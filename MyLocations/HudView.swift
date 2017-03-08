@@ -50,4 +50,14 @@ class HudView: UIView {
             y: center.y - round(textSize.height / 2) + boxHeight / 4)
         text.draw(at: textPoint, withAttributes: attribs)
     }
+
+    func show(animated: Bool) {
+        if animated {
+            // 1
+            alpha = 0
+            transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
+
+            // 2
+        }
+    }
 }
