@@ -58,6 +58,11 @@ class HudView: UIView {
             transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
 
             // 2
+            UIView.animate(withDuration: 0.3, animations: { 
+                // 3
+                self.alpha = 1
+                self.transform = CGAffineTransform.identity
+            })
         }
     }
 }
