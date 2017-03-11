@@ -59,11 +59,12 @@ class HudView: UIView {
             transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
 
             // 2
-            UIView.animate(withDuration: 0.3, animations: { 
+            UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.5, options: [], animations: {
                 // 3
                 self.alpha = 1
                 self.transform = CGAffineTransform.identity
-            })
+            },
+            completion: nil)
         }
     }
 }
