@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreLocation
+import Dispatch
 
 private let dateFormatter: DateFormatter = {
     let formatter = DateFormatter()
