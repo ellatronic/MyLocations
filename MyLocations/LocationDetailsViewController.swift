@@ -8,7 +8,6 @@
 
 import UIKit
 import CoreLocation
-import Dispatch
 
 private let dateFormatter: DateFormatter = {
     let formatter = DateFormatter()
@@ -29,7 +28,9 @@ class LocationDetailsViewController: UITableViewController {
         let hudview = HudView.hud(inView: navigationController!.view, animated: true)
 
         hudview.text = "Tagged"
-        let delayInSeconds = 0.6
+        afterDelay(0.6) { 
+            self.dismiss(animated: true, completion: nil)
+        }
     }
     
     @IBAction func cancel() {
