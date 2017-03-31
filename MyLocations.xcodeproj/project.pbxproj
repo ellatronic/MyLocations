@@ -16,6 +16,7 @@
 		492057111DF8958600C763C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492057101DF8958600C763C3 /* Assets.xcassets */; };
 		492057141DF8958600C763C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492057121DF8958600C763C3 /* LaunchScreen.storyboard */; };
 		49646AC41E89F59D004F4585 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49646AC31E89F59D004F4585 /* Functions.swift */; };
+		49D29A961E8EA4B400D5B843 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49D29A941E8EA4B400D5B843 /* DataModel.xcdatamodeld */; };
 		49D372631E13292E00633331 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D372621E13292E00633331 /* LocationDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		492057131DF8958600C763C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492057151DF8958600C763C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49646AC31E89F59D004F4585 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		49D29A951E8EA4B400D5B843 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		49D372621E13292E00633331 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				4920570B1DF8958600C763C3 /* SecondViewController.swift */,
 				491529B71E60077A0017DF5A /* HudView.swift */,
 				4920570D1DF8958600C763C3 /* Main.storyboard */,
+				49D29A941E8EA4B400D5B843 /* DataModel.xcdatamodeld */,
 				492057101DF8958600C763C3 /* Assets.xcassets */,
 				492057121DF8958600C763C3 /* LaunchScreen.storyboard */,
 				492057151DF8958600C763C3 /* Info.plist */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D372631E13292E00633331 /* LocationDetailsViewController.swift in Sources */,
+				49D29A961E8EA4B400D5B843 /* DataModel.xcdatamodeld in Sources */,
 				4920570C1DF8958600C763C3 /* SecondViewController.swift in Sources */,
 				491529B81E60077A0017DF5A /* HudView.swift in Sources */,
 				49646AC41E89F59D004F4585 /* Functions.swift in Sources */,
@@ -325,6 +329,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		49D29A941E8EA4B400D5B843 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				49D29A951E8EA4B400D5B843 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 49D29A951E8EA4B400D5B843 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 492056FC1DF8958600C763C3 /* Project object */;
 }
