@@ -57,6 +57,8 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     
     var timer:Timer?
 
+    var managedObjectContext: NSManagedObjectContext!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         updateLabels()
